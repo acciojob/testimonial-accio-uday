@@ -5,37 +5,46 @@
 	<link rel="stylesheet" href="styles.css">
 	<title>Testimonial Section Design</title>
 	<style>
-		*{
+		body{
 			background-color: #f5f5f5;
-			padding: 8px 0 0 15px;
-			box-shadow:rectangle;
+			padding: 0;
+			font-family:Arial, sans-serif;
+			margin:0;
 		}
-		sub{
+		.main-container{
+			padding:40px;
+		}
+		.testimonial{
+			padding:20px;
+			border:1px solid #ccc;
+			background-color:white;
+			margin-bottom:20px;
+		}
+		.testimonial p{
+			margin:0;
+		}
+		.author{
 			text-align:right;
 			font-style:italic;
-			background-color:white
-		}
-		p{
-			background-color:white;
-			border:10px
-			margin: 100px;
-			padding:20px;
-			
 		}
 	</style>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+	<div class="main-container">
 	<h1>Testimonials</h1>
-	<p>This product is amazing! I highly recommend it to anyone in need of a solution like this.
-		
-	<sub>-John Doe</sub></p>
 
-	<p>I have been using this for a few weeks now and it has completely transformed my workflow.
+	<div class="testimonial">	
+	<p>This product is amazing! I highly recommend it to anyone in need of a solution like this.</p>
+	<p class="author">-John Doe</p>
+	</div>
 	
-	<sub>-Jane Smith</sub></p>
-	
+	<div class="testimonial">
+	<p>I have been using this for a few weeks now and it has completely transformed my workflow.</p>
+	<p class="author">-Jane Smith</p>
+	</div>
+		
+	</div>
 </body>
 
 </html>
